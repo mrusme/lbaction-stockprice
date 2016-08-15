@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>stockprice.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.twostairs.LaunchBar.action.StockPrice</string>
+	<key>CFBundleName</key>
+	<string>Stock Price</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Marius M.</string>
+		<key>LBEmail</key>
+		<string>marius@twostairs.com</string>
+		<key>LBRequirements</key>
+		<string>Requires an active internet connection.</string>
+		<key>LBSummary</key>
+		<string>Allows looking up stock prices.</string>
+		<key>LBTwitter</key>
+		<string>@mrusme</string>
+		<key>LBWebsiteURL</key>
+		<string>https://twostairs.com</string>
+	</dict>
+	<key>LBRequirements</key>
+	<string>Requires an active internet connection.</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBLiveFeedbackEnabled</key>
+			<true/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Stock</string>
+</dict>
+</plist>
